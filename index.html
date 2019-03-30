@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Speed typing</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body class="bg-dark">
+    <div class="header">
+        <h3>speed typing challenge</h3>
+    </div>
+    <div class="flex-container">
+        <div class="left" id="left">
+            <h1 id="timer"> Time left</h1>
+            <h3 id="theTime">5</h3>
+        </div>
+           
+        <div class= "center" id="center">
+            <div class="command">
+                <p>Type the word before time is up</p>
+            </div>
+            <div class="to-display-word">
+                <h1 id="displayedWord">School</h1>
+            </div>
+            <div id="inputCover">
+                    <input id="input" type="text" placeholder="Start typing here.." spellcheck="false" />
+                </div>
+            <div id="instruction">
+                <h4>Instruction</h4>
+                    <div id="manual">
+                    <p>Type the displayed word to play the game. finish the word before the time is up to get a score.</p>
+                    </div>
+            </div>
+        </div>
+       
+        <div class="right" id="right">
+            
+                <div class="scoreThing">      
+                   <h1 id="score"> Score </h1>
+                   <h3 id="theScore">0</h3>
+                </div>
+                
+                <div class="bestScoreThing">
+                    <h1 id="best"> Best Score </h1>
+                    <h3 id="theBest">0</h3>
+                </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
